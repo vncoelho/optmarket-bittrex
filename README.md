@@ -2,9 +2,9 @@ optmarket-bittrex
 ==========
 
 optmarket-bittrex is framework mainly designed for communicating with Bittrex API (public and private) in c++.
-Some templates are available for transforming the adquired data into vectors and other useful data types.
+Some templates are available for transforming the adquired data into vectors, providing an insight for the use of other efficient data types.
 We believe that optimization, metaheuristics and other intelligent inspired systems can be easily embedded inside it.
-For advancing in these directions, please check ["OptFrame](https://sourceforge.net/projects/optframe/).
+For advancing into these directions, please check the [OptFrame](https://sourceforge.net/projects/optframe/).
 
 This version implement V1.1 Bittrex API and the new HMAC authentification.
 
@@ -28,7 +28,7 @@ int main(void)
 	cout << std::setprecision(10);
 	cout << std::fixed;
 
-	//Little examples
+	//Few examples
 	float quantity = 0.3000;
 	float rate = 0.00313001;
 
