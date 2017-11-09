@@ -1,12 +1,25 @@
 optmarket-bittrex
 ==========
 
-optmarket-bittrex is framework mainly designed for communicating with Bittrex API (public and private) in c++.
+optmarket-bittrex is framework that was mainly designed for communicating with Bittrex API (public and private) in c++.
 Some templates are available for transforming the adquired data into vectors, providing an insight for the use of other efficient data types.
+Following its structures, different trading platforms could be accesed and cross-tradding would be smartly performed.
 We believe that optimization, metaheuristics and other intelligent inspired systems can be easily embedded inside it.
 For advancing into these directions, please check the [OptFrame](https://sourceforge.net/projects/optframe/).
 
 This version implement V1.1 Bittrex API and the new HMAC authentification.
+
+
+optmarket-bittrex is framework mainly designed for communicating with Bittrex API (public and private) in c++. Some templates are available for transforming the adquired data into vectors, providing an insight for the use of other efficient data types. We believe that optimization, metaheuristics and other intelligent inspired systems can be easily embedded inside it. For advancing into these directions, please check the OptFrame.
+
+
+#Dependencies
+libssl-dev
+libcurl
+libjsoncpp-dev
+
+#Execution
+export PRIVATE_KEY="1234" && export PUB_KEY="1234" && app_OptMarket
 
 ## Import
 git clone "github.com/vncoelho/optmarket-bittrex.git"
@@ -55,9 +68,14 @@ Donate
 
 [17GrXw3qdz1G6DRxvtmhnhLzFXjRK5z6NY](http://i.imgur.com/xC5SnSL.png)
 
-## ANS
+## NEO
 AZZZsZJVqZwfHUx55p6UdY1Vx7qCjhnjMy
 
 ## ETH
 0xd35fb76723636e11Fa580665A54E19F781C6Cd8a
+~~~
 
+## Main contributors
+v1.2
+Vitor Nazário Coelho
+Igor Machado Coelho
